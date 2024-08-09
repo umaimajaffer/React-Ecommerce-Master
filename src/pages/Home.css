@@ -1,0 +1,42 @@
+.home {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+
+.hero-image {
+    background-image: url('../assets/backgound.jpg');
+    border-image: fill;
+    /* Adjust the path as necessary */
+
+    background-position: center;
+
+    /* Full viewport height */
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    height: 550px;
+    margin-top:50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    border: 5px solid #000; /* Add a white border */
+    border-radius: 10px; /* Optional: add rounded corners */
+}
+
+.text h1 {
+    font-size: 3rem;
+    margin-top: 70px;
+    color: #000;
+}
+
+.hero-image h2 {
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
