@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e97939;
+    padding: 10px 0;
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    
+}
+
+.navbar .link {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+.navbar .link i {
+    display: inline-block;
+    font-size: 27px;
+    color:  #222;
+    margin-right: 10px;
+  }
+  
